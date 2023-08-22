@@ -1,0 +1,21 @@
+{
+  "name": "mycli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cs-cli": "./child-process.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caf": "^15.0.1",
+    "get-stdin": "^9.0.0",
+    "minimist": "^1.2.8",
+    "sqlite3": "^5.1.6"
+  }
+}
